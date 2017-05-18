@@ -223,6 +223,7 @@ related ul {
   padding: 30px;
 }
 
+/*
 @media (min-width: 641px) {
   .slides {
     margin-top: 30px;
@@ -238,6 +239,7 @@ related ul {
     padding: 75px 70px;
   }
 }
+*/
 .slides h1 {
   font-family: "nta", Arial, sans-serif;
   font-size: 24px;
@@ -291,6 +293,7 @@ related ul {
   font-size-adjust: 0.525;
   margin-bottom: 30px;
 }
+/*
 @media (min-width: 641px) {
   .slides h3 {
     font-size: 24px;
@@ -303,6 +306,7 @@ related ul {
     margin-bottom: 15px;
   }
 }
+*/
 .slides p,
 .slides ul {
   font-family: "nta", Arial, sans-serif;
@@ -345,6 +349,8 @@ related ul {
 .slides figure img {
   width: 100%;
 }
+
+/*
 @media (max-width: 640px) {
   .slides figure {
     width: 40%;
@@ -357,7 +363,7 @@ related ul {
     width: 66.6666666667%;
  }
 }
-
+*/
 .slides details summary {
   color: #fff;
 }
@@ -374,16 +380,19 @@ related ul {
   border: solid #005ea5 10px;
   padding: 20px;
 }
+/*
 @media (min-width: 641px) {
   .slides.slides-2 {
     padding: 35px;
   }
 }
+
 @media (min-width: 769px) {
   .slides.slides-2 {
     padding: 65px 60px;
   }
 }
+*/
 .slides.slides-2 .actions .button {
   background: #005ea5;
   color: #fff;
@@ -397,7 +406,7 @@ related ul {
 
 .slide-medium
 {
-    height:35em;
+    height:100%;
 }
 
 .slide-medium-large
